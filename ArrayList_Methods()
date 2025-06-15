@@ -1,0 +1,32 @@
+package ListInterface;
+
+import java.util.ArrayList;
+
+public class ArrayListMethods {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+ArrayList list = new ArrayList();
+		
+		list.add(20);
+		list.add(10);
+		list.add(50);
+		list.add(5);
+		list.add(3);
+		list.add(10);
+		System.out.println("add element"+list);
+		//add() method is used for add the element in arrayList
+		list.remove(1);//using this method element is deleted that is present in 1stindex
+		System.out.println("using remove method 10 is delete "+list);
+		
+		System.out.println("using contains method :"+list.contains(20));
+		// contains() gives boolean output passed element is present or not
+		
+		System.out.println("using get method :"+list.get(2));
+		//get() return values of passed index
+	
+
+	}
+
+}
