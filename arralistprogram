@@ -1,0 +1,37 @@
+package ListInterface;
+
+import java.util.ArrayList;
+import java.util.Collections;
+// Arraylist is chiled class of list interface
+// homogenous + hetrogenous elements are aalowed to the arraylist
+// null values are possible
+//dublicates elements are allowed
+//insertion order is preserved
+//best choise for elements serching and retriver because of index
+//its implement random acces memory and clonable
+
+
+//wap program to add elements in arraylist
+public class ArrayListDemo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+         ArrayList al=new ArrayList();
+         
+     
+         al.add(10);
+         al.add(60);
+         al.add(30);
+         al.add(40);
+         al.add(null);
+         al.add(60);
+        
+       
+         System.out.println(al);
+        
+
+	}
+
+}
+
+
